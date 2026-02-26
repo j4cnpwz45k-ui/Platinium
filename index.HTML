@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platinium - la marque de montre la plus désirée</title>
+    <meta
+      name="description"
+      content="Platinium - la marque de montre la plus désirée"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__branding">
+        <h1 class="header__title">Platinium</h1>
+        <p class="header__subtitle">La clé de votre style</p>
+      </div>
+      <h3>Depuis 1967</h3>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO -->
+      <section class="hero">
+        <h2 class="hero__title">
+          Conçues pour vous suivre dans toutes vos aventures
+        </h2>
+        <h3 class="hero__text">
+          Nos montres sont construites avec des matériaux rares très résistants
+          et sont étanches a plus de 100 mètres de profondeur.
+        </h3>
+      </section>
+
+      <section class="nos tarifs">
+        <h2 class="prix__title">Pensée pour l'action</h2>
+      </section>
+
+      <section class="prix">
+        <p class="prix__text">
+          Une beauté incomparable, un design unique et une durabilité hors du
+          commun.
+        </p>
+      </section>
+
+      <section id="photos" class="photos">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1669904021350-c59c580086e3?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="photo d'une montre avec un caafé en fond"
+          height="200"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="photo d'une montre avec un fond noir"
+          width="300"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="photo d'une montre avec un fond uni noir"
+          height="170"
+        />
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <h2 class="contact__title">Nous contacter</h2>
+
+        <section class="formulaire">
+          <form action="https://formspree.io/f/xlgwljgn" method="POST">
+            <div class="zero">
+              <div class="un">
+                <label for="name">nom :</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Ton nom"
+                  required
+                />
+              </div>
+
+              <div class="deux">
+                <label for="email">Email :</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="ton@email.com"
+                  required
+                />
+              </div>
+
+              <div class="trois">
+                <label for="message">Sujet :</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Ton message..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="quatre">
+                <button class="quiapasdonnédenomacebouton" type="submit">
+                  Envoyer
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+        <address class="contact__details">
+          <p>📍 67 rue six seven, 75000 Paris</p>
+          <p>📞 <a href="tel:06 30 85 16 80">06 30 85 16 80</a></p>
+          <p>
+            📧
+            <a href="mailto:mahe.dellys@icloud.com">mahe.dellys@icloud.com</a>
+          </p>
+        </address>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer__text">© 2026 Platinium — Tous droits réservés</p>
+      <p class="footer__text">
+        Site de démonstration - toutes informations ou images sont fictives
+      </p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
